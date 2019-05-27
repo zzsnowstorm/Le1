@@ -1,0 +1,34 @@
+.cc{
+	width: 400px;
+	height: 300px;
+	background: -moz-linear-gradient(left,blue,green,gray,red);
+	background: -webkit-linear-gradient(left,blue,green,gray,red);
+}
+.cc2{
+	width: 400px;
+	height: 300px;
+	background: linear-gradient(to left,blue,red);
+	/* 浏览器语法不通 */
+}
+.cc3{
+	width: 400px;
+	height: 300px;
+	background: linear-gradient(to right,rgba(255,255,255,0.9),rgba(0,0,255,0.3)),url(../img/01-2.jpg);
+	background-size: 100%;
+}
+.cc4{
+	width: 400px;
+	height: 300px;
+	background: radial-gradient(ellipse,yellow,white,blue)
+}
+.cc5{
+	width: 400px;
+	height: 300px;
+	background:-moz-radial-gradient(center,yellow,white,blue);
+	background:-webkit-radial-gradient(center,yellow,white,blue);
+}
+.cc6{
+	width: 400px;
+	height: 300px;
+	background: radial-gradient(ellipse,rgba(255,0,0,0.9),rgba(0,255,0,0.1),blue)
+}
